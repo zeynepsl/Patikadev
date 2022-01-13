@@ -6,6 +6,7 @@ import java.util.Scanner;
 import java.util.TreeSet;
 
 public class Hard {
+	
 	public static ArrayList<ArrayList<Character>> buildBoard(String[] strArr) {
 		ArrayList<ArrayList<Character>> board = new ArrayList<>();
 		for (int i = 0; i < strArr.length; i++) {
