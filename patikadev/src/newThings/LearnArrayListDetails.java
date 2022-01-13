@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class LearnArrayList {
+public class LearnArrayListDetails {
 	public static void main(String[] args) {
 		//arrayList oluþturma:
 		ArrayList<Integer> arrayList = new ArrayList<Integer>();//default kapasite -> 10

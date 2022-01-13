@@ -63,5 +63,6 @@ public class LearnStringBuilder {
         // print the result
         System.out.println("StringBuilder = " + str);//StringBuilder = CCCCBBBAAAA,
         System.out.println("Capacity of StringBuilder = " + capacity);//Capacity of StringBuilder = 27
+        
 	}
 }
