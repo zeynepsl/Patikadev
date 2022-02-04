@@ -40,6 +40,7 @@ public class Hard {
 	          return branch;
 	          }
 	      }
+	      
 	      // Listeye döngüsel olmayan olasý alt yollar ekleyin
 	      for (String conn : connections) {
 	        // olasý atlama
@@ -90,7 +91,7 @@ public class Hard {
 	  public static void main (String[] args) {
 	    // keep this function call here
 	   // Scanner s = new Scanner(System.in);
-	    String[] paths = {"4", "X", "Y","Z","W","X-Y","Y-Z","X-W"};
+	    String[] paths = {"4", "X", "Y","Z","W","X-Y","Y-Z","Z-W"};
 	    System.out.print(ShortestPath(paths)); 
 	  }
 
