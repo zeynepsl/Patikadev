@@ -4,7 +4,7 @@
 </div>
 
 #
-Bu repository; Patika.dev bootcamp hızlandırma programındaki [coderbyte pratiklerini]((https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/coderbyte), [yararlı pratik bilgileri]((https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/newThings)), [patika modül çalışmalarını](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/java101) kapsamaktadır.
+Bu repository; Patika.dev bootcamp hızlandırma programındaki [coderbyte pratiklerini](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/coderbyte), [yararlı pratik bilgileri](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/newThings), [patika modül çalışmalarını](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/java101) kapsamaktadır.
 
 - [Coderbyte](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/coderbyte)
 - [Java-101](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/java101)
