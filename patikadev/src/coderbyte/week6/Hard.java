@@ -7,6 +7,7 @@ public class Hard {
 	//1 veya 2 adım atarak merdiven çıkılabiliyor
 	//basamk sayısı verilen merdivene ait kaç farklı adım kombinasyonlarıyla çıkılır
 	//bu kombinasyonların toplamını bulun
+	
 	public static int StepWalking(int num) {
 		
 	    if(num >= 1 && num <= 1000){
@@ -14,10 +15,10 @@ public class Hard {
 	      res[0]=1;
 	      res[1]=1;    
 	      for(int i = 2; i <= num; i++){
-	        res[i] = res[i-1] + res[i-2];
+	        res[i] = res[i-1] + res[i-2];//Her i indeksi için, i. pozisyonun bilgisayar değeri dp[i] = dp[i-1] + dp[i-2] şeklindedir.
 	      }
-	      return res[num];
-	    }
+	      return res[num];//dp[n] değerini, n'inci adıma ulaşma yollarının sayısı olarak yazdırın.
+	    } 
 	    return 1;
 	  }
 
