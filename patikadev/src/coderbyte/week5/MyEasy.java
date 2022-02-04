@@ -3,23 +3,25 @@ package coderbyte.week5;
 import java.util.Scanner;
 
 public class MyEasy {
-	//ünsüzleri say
+	// ünsüzleri say
 	public static int ConsonantCount(String str) {
-	    String vowels = "aeiouAEIOU";
 	    int consCount = 0;
+	    String vowels = "aeiou";
 	    for(int i = 0; i < str.length(); i++){
-	      char currentChar = str.charAt(i);
-	      if(vowels.indexOf(currentChar) == -1 && currentChar != ' '){
-	    	  consCount++;
+	      char ch = str.charAt(i);
+	      if(Character.isAlphabetic(ch)) {
+	    	  if(vowels.indexOf(ch) == -1)
+	    		  consCount++;
 	      }
+	      
 	    }
 
-	    return consCount;
-	  }
+	return consCount;
+	}
 
-	  public static void main (String[] args) {  
-	    // keep this function call here     
-	    Scanner s = new Scanner(System.in);
-	    System.out.print(ConsonantCount(s.nextLine())); 
-	  }
+	public static void main(String[] args) {
+		// keep this function call here
+		Scanner s = new Scanner(System.in);
+		System.out.print(ConsonantCount("zynp*-,11"));// 4
+	}
 }
