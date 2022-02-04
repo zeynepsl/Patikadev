@@ -2,7 +2,9 @@ package coderbyte.week3;
 
 
 public class Medium2 {
-	//aaabbcd --> 3a2b1c1d
+	//aaabbcd --> 3a2b1c1d 
+	
+	
 	public static String runLength(String str) {
 		String result = "";
 		int count = 1;
