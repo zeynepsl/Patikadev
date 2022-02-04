@@ -7,6 +7,10 @@ public class Medium {
 		// 0 -2 -2 5 5 5 --> output:3
 		// 100 0 1 4     -->        0
 		
+		//eþleri aynýlarý bulun
+		//0 -2 -2 5 5 5 
+		//-2'nin bir adet eþi var
+		
 	    Arrays.sort(arr);
 	    int counter = 0;
 
