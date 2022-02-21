@@ -2,7 +2,7 @@ package java101;
 
 import java.util.Scanner;
 
-public class ManavKasaProgramý {
+public class ManavKasaProgrami {
 
 	public static void main(String[] args) {
 		double armutKg = 2.14, elmaKg = 3.67, domatesKg = 1.11, muzKg = 0.95, patlýcanKg = 5;
