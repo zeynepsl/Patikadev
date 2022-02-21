@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class DaireAlanCevreHesaplama {
 	public static void main(String[] args) {
-		double pi = 3.14, yaricap, alan, cevre;
+		double pi = 3.14, r, alan, cevre;
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("yaricap degerini girin: ");
-		yaricap = scanner.nextDouble();
+		r = scanner.nextDouble();
 		
-		alan = pi * yaricap * yaricap;
-		cevre = 2 * pi * yaricap;
+		alan = pi * r * r;
+		cevre = 2 * pi * r;
 		
 		System.out.println("Alan: " + alan + "\nCevre: " + cevre);
 	}
