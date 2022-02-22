@@ -16,6 +16,7 @@ public class HesapMakinesi {
 
 		System.out.print("1--> toplama\n2-->Çýkarma\n3-->Bolme\n4-->Carpma");
 		choice = scanner.nextInt();
+		
 
 		switch (choice) {
 		case 1:
@@ -25,16 +26,24 @@ public class HesapMakinesi {
 			result = a - b;
 			break;
 		case 3:
-			result = a / b;
-			break;
+			if(b == 0) {
+				result = 0;
+				break;
+			}
+			else {
+				result = a / b;
+				break;
+			}
+			
 		case 4:
-			result = a *b;
+			result = a * b;
 			break;
 		default:
 			result = 0;
 			break;
 		}
 		
-		System.out.println("Sonuc: " + result);
+		String str = result == 0 ? "Yanlis sayilar girildi" : "Hesaplama tamamlandý";
+		System.out.println(str + ". sonuc: " + result);
 	}
 }
