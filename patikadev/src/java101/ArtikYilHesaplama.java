@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class ArtikYilHesaplama {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		int yil = scanner.nextInt();
+		int year = scanner.nextInt();
 		
-		if((yil % 4 == 0) || (yil % 400 == 0)) {
+		if(year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
 			System.out.println("artik yil");
 		}
 		else {
