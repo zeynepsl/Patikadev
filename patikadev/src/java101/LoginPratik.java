@@ -26,7 +26,7 @@ public class LoginPratik {
 
 	public static void sifreYenile(String mevcutSifre, String girilenSifre, Scanner scanner) {
 		String yeniSifre;
-		int choice, loginCount = 1;
+		int choice;
 		System.out.print("Þifrenizi sýfýrlamak istiyor musunuz? 1-->Evet 2-->Hayýr");
 		choice = scanner.nextInt();
 
@@ -37,14 +37,13 @@ public class LoginPratik {
 			if (!yeniSifre.equals(girilenSifre) && !yeniSifre.equals(mevcutSifre)) {
 				mevcutSifre = yeniSifre;
 				System.out.println("Þifre oluþturuldu");
-				break;
+				
 			} 
 			else {
 				System.out.println("Þifre oluþturulamadý, lütfen baþka þifre giriniz.");
-				loginCount++;
 			}
 		
-		
+		}
 	
 	}
 }
