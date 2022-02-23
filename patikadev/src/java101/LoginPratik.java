@@ -19,6 +19,7 @@ public class LoginPratik {
 		if (girilenSifre.equals(mevcutSifre)) {
 			System.out.println("Basarili giris");
 		} else {
+			System.out.println("Basarisiz giris");
 			sifreYenile(mevcutSifre, girilenSifre, scanner);
 		}
 
