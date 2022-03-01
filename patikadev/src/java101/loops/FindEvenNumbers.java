@@ -7,8 +7,14 @@ public class FindEvenNumbers {
 		Scanner scanner = new Scanner(System.in);
 		int num = scanner.nextInt();
 		
-		for(int i = 0; i <= num; i+=2) {
+		int i = 0;
+		while(i <= num) {
 			 System.out.println(i + " ");
+			 i+=2;
 		}
+		
+		/*for(int i = 0; i <= num; i+=2) {
+			 System.out.println(i + " ");
+		}*/
 	}
 }
