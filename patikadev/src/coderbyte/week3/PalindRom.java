@@ -1,6 +1,6 @@
 package coderbyte.week3;
 
-public class Easy {
+public class PalindRom {
 	//palindrom kontrol
 	
 	public static boolean palindrom(String str) {

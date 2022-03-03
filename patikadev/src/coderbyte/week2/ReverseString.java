@@ -1,6 +1,6 @@
 package coderbyte.week2;
 
-public class Easy {
+public class ReverseString {
 	public static boolean reverse(String str) {
 		String result = "";
 		

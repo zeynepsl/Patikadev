@@ -5,23 +5,20 @@ public class RunLeng {
 		//aaabbbbcccd
 		int count = 1;
 		String result = "";
-		char ch = str.charAt(0);
-		
+		char oncekiCh = str.charAt(0);
 		for(int i = 1; i < str.length(); i++) {
-			char sonrakiCh = str.charAt(i);
-			char oncekiCh = str.charAt(i-1);
-			
+			char sonrakiCh = str.charAt(i);	
 			if(sonrakiCh == oncekiCh) {
 				count++;
 			}
 			else {
 				result = result + count + oncekiCh;
 				count = 1;
-				ch = sonrakiCh;
+				oncekiCh = sonrakiCh;
 			}
 		}
 		
-		result = result + count + ch;
+		result = result + count + oncekiCh;
 		return result;
 	}
 	

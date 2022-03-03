@@ -7,7 +7,7 @@ public class Easy {
 		// 7, 1, 3, 3
 	    int firstNum = arr[0];
 	    
-	    String result = "-1";
+	    String result = "";
 	    
 	    for(int i = 1; i < arr.length; i++){
 	      for(int j = i+1 ; j < arr.length; j++){

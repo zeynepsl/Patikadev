@@ -2,12 +2,11 @@ package coderbyte.week2;
 
 import java.util.Scanner;
 
-public class Medium2 {
+public class FormatDivision {
 	public static String FormattedDivision(int num1, int num2) {
-		//virgulden sonra 4 hane olsun
 	    // code goes here
-	    double division = num1 * 1.00 / num2;
-	    return String.format("%,.4f", division);
+	    double division = (double) num1 / num2;
+	    return String.format("%,.4f", division);//virgulden sonra 4 hane olsun
 	  }
 
 	  public static void main (String[] args) {

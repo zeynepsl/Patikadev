@@ -86,6 +86,7 @@ public class Hard {
 	      // Mevcut minimum maliyet yolu için baþ düðüm
 	      head = String.valueOf(path.charAt(path.length() - 1));
 	    }
+	    
 	  }
 
 	  public static void main (String[] args) {
