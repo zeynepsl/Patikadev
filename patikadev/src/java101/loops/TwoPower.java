@@ -13,8 +13,9 @@ public class TwoPower {
 		System.out.println("girilen sayýya kadar olan 2'nin kuvvetleri:");
 		for(i = 1; i <= num; i*=2) {
 			System.out.print(i + " ");
+			
 		}
-		
+		 
 		System.out.println("\ngirilen sayýya kadar olan 4'un kuvvetleri:");
 		for(i = 4; i <= num; i*=4) {
 			System.out.print(i + " ");
