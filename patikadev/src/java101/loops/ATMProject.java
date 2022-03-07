@@ -35,16 +35,15 @@ public class ATMProject {
 	}
 	
 	public static double paraCek(double toplamBakiye, Scanner scanner) {
-		double toplam = toplamBakiye;
 		System.out.println("ne kadar para cekmek istiyordunuz: ");
 		double cekilecekMiktar = scanner.nextDouble();
-		if(cekilecekMiktar > toplam) {
+		if(cekilecekMiktar > toplamBakiye) {
 			System.out.println("bakiyenizde yeterli miktar yok");
 		}
 		else {
-			toplam -= cekilecekMiktar;
+			toplamBakiye -= cekilecekMiktar;
 		}
-		return toplam;
+		return toplamBakiye;
 	}
 	
 	public static double paraYatir(double toplamBakiye, Scanner scanner) {
