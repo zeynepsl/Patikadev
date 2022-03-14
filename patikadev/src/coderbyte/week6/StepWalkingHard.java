@@ -7,7 +7,19 @@ public class StepWalkingHard {
 		if(n == 2) return 2;
 		return stepWalking(n-1) + stepWalking(n-2);
 	}
+	
+	public static int stepWalkingWithFibonacci(int n) {
+		int birinci = 0, ikinci = 1, ucuncu = 0;
+		
+		for(int i = 0; i < n; i++) {
+			ucuncu = birinci + ikinci;
+			birinci = ikinci;
+			ikinci = ucuncu;		
+		}
+		return ucuncu;
+	}
 	public static void main(String[] args) {
 		System.out.println(stepWalking(10));
+		System.out.println(stepWalkingWithFibonacci(10));
 	}
 }

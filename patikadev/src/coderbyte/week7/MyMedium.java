@@ -69,6 +69,6 @@ public class MyMedium {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(letterCount("Hello apple"));
+		System.out.println(letterCount("H ello apple"));
 	}
 }

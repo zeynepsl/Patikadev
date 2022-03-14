@@ -20,6 +20,9 @@ public class Medium {
 	    if(currentStr.equals(reverseStr)){
 	      return true;
 	    }
+	    
+	    
+	    
 	    return false;
 	  }
 

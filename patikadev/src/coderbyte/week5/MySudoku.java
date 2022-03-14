@@ -10,8 +10,6 @@ public class MySudoku {
 	public static String SudokuQuadrantChecker(String[] strArr) {
 	    // code goes here  
 	    List<ArrayList<String>> sudoku = new ArrayList<ArrayList<String>>();
-	
-
 	    Set<Integer> errorQuadrants = new HashSet<Integer>();
 
 	    for(int i = 0; i < 9; i++){
