@@ -47,12 +47,13 @@ public class LearnStringBuilder {
  
         // reverse the string
         StringBuilder reverseStr = str.reverse();
- 
+        reverseStr.deleteCharAt(1);
         // print string
         System.out.println("Reverse String = " + reverseStr.toString());//Reverse String = CCCCBBBAAAA
  
         // Append ', '(44) to the String
         str.appendCodePoint(44);
+        str.re
  
         // Print the modified String
         System.out.println("Modified StringBuilder = " + str);//Modified StringBuilder = CCCCBBBAAAA,
