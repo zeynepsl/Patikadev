@@ -25,7 +25,7 @@ public class ATMProject {
 			else if(choice == 3) {
 				System.out.println("toplam bakiyeniz: " + toplamBakiye);
 			}
-			else if(choice == 4) {
+			else if(choice != 1 && choice != 2 && choice != 3) {
 				break;
 			}
 			
