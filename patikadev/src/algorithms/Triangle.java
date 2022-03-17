@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Triangle {
+	//https://github.com/zeynepsl/Patikadev/blob/master/patikadev/src/algorithms/Triangle.java
 	
     public static int minimumTotal(List<List<Integer>> triangle) {
         int total = triangle.get(0).get(0);
