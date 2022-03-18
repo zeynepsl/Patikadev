@@ -15,7 +15,20 @@ public class PalindromNumber {
 		}
 	}
 	
-	//en iyisi: (kaynak: leetcode) :)
+	//cok iyi:
+	public static boolean isPalindromeNumber(int num) {
+		int temp = num, reverseNumber = 0, lastNum = 0;
+		
+		while(temp != 0) {
+			lastNum = temp % 10;
+			reverseNumber = (reverseNumber * 10) + lastNum;
+			temp /= 10;
+		}
+		
+		return reverseNumber == num;
+	}
+	
+	//cok iyi: sayinin yarisina bakiyor :)
 	public static boolean isPalindromeNum(int x) {
 	    if (x<0 || (x!=0 && x%10==0)) return false;
 	    int rev = 0;
@@ -27,7 +40,7 @@ public class PalindromNumber {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(isPalindrome(-123321));
+		System.out.println(isPalindromeNumber(-123321));
 	}
 
 }
