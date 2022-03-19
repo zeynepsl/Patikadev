@@ -7,6 +7,7 @@ public class ExponentWithRecursive {
             exp = Math.abs(exp);
         }
 		if(exp == 1) return base;
+		if(exp == 0) return 1;
 		System.out.println("base: " + base + " - exp: " + exp);
 		return exponent(base, exp-1) * base;
 	}
