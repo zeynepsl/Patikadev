@@ -3,9 +3,10 @@
   <img src="https://github.com/zeynepsl/Patikadev/blob/master/rocket.gif" width="300" height="300"><br>
 </div>
 
-#
-Bu repository; Patika.dev bootcamp hızlandırma programındaki [coderbyte pratiklerini](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/coderbyte), [yararlı pratik bilgileri](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/newThings), [patika modül çalışmalarını](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/java101) kapsamaktadır.
-
-- [Coderbyte](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/coderbyte)
-- [Java-101](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/java101)
-- [practical, useful information](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/newThings)
+# About Repository 
+- [LeetCode](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/leetCode)
+- [HackerRank](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/hackerRank)
+- [Patika.dev bootcamp acceleration program- coderbyte challenges](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/coderbyte)
+- [Data Structures](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/dataStructures)
+- [Useful practical information](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/newThings)
+- [Patika.dev course studies](https://github.com/zeynepsl/Patikadev/tree/master/patikadev/src/java101)
