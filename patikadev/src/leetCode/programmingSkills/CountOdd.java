@@ -1,6 +1,8 @@
 package leetCode.programmingSkills;
 
 public class CountOdd {
+	/*1523. Count Odd Numbers in an Interval Range
+Given two non-negative integers low and high. Return the count of odd numbers between low and high (inclusive).*/
 	
 	//858 ms:
     public int countOdds(int low, int high) {
@@ -14,6 +16,8 @@ public class CountOdd {
         return count;
     }
 	
+    
+    //0 ms:
 	int countOdds1(int low, int high) {
 		// low: 5 high: 10
 		int res = (high - low) / 2;
@@ -28,6 +32,7 @@ public class CountOdd {
 			high -= 1;
 		return (high - low)/2 + 1;
 	}*/
+	
 
 	//0 ms:
 	public int countOdds2(int low, int high) {

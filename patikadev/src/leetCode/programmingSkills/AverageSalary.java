@@ -3,6 +3,10 @@ package leetCode.programmingSkills;
 import java.util.Arrays;
 
 public class AverageSalary {
+	/*1491. Average Salary Excluding the Minimum and Maximum Salary
+You are given an array of unique integers salary where salary[i] is the salary of the ith employee.
+Return the average salary of employees excluding the minimum and maximum salary. Answers within 10-5 of the actual answer will be accepted.*/
+	
 	//3 ms: 
 	public double average(int[] salary) {
 	        int min = Arrays.stream(salary).min().getAsInt();
@@ -17,7 +21,7 @@ public class AverageSalary {
 	        return total/(salary.length - 2);
 	 }
 	
-	//en iyisi: 0ms:
+	//0ms:
 	public static double average2(int[] salary) {
         double sum = 0;
         int max = Integer.MIN_VALUE, min = Integer.MAX_VALUE;
